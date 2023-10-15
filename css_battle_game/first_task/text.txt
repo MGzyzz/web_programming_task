@@ -1,0 +1,30 @@
+<div></div>
+<style>
+        * {
+            background: #E3516E;
+            margin: 29px 36px;
+        }
+
+        div {
+            background: #FADE8B;
+            width: 184px;
+            height: 184px;
+        }
+
+        div::after, div::before {
+            content: '';
+            position: fixed;
+            background: #E3516E;
+            width: 30px;
+            height: 280px;
+            transform: rotate(45deg);
+            top: 10px;
+            left: 185px;
+        }
+
+        div::before {
+            transform: rotate(-45deg);
+        }
+    </style>
+
+
